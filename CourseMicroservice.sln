@@ -1,17 +1,36 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35506.116 d17.12
+VisualStudioVersion = 17.12.35506.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FACD1529-121D-4098-A597-DFC38C64FACE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{7B734490-201B-45C2-B885-EEA5DE4B0763}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseMicroservice.Catalog.Api", "CourseMicroservice.Catalog.Api\CourseMicroservice.Catalog.Api.csproj", "{5E588988-0E03-4AA4-A86C-6728B2A99C8C}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{EAC0C616-24A3-4DBF-BC30-6A7307EFF04D}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E588988-0E03-4AA4-A86C-6728B2A99C8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E588988-0E03-4AA4-A86C-6728B2A99C8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E588988-0E03-4AA4-A86C-6728B2A99C8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E588988-0E03-4AA4-A86C-6728B2A99C8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAC0C616-24A3-4DBF-BC30-6A7307EFF04D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAC0C616-24A3-4DBF-BC30-6A7307EFF04D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAC0C616-24A3-4DBF-BC30-6A7307EFF04D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAC0C616-24A3-4DBF-BC30-6A7307EFF04D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{7B734490-201B-45C2-B885-EEA5DE4B0763} = {FACD1529-121D-4098-A597-DFC38C64FACE}
+		{5E588988-0E03-4AA4-A86C-6728B2A99C8C} = {7B734490-201B-45C2-B885-EEA5DE4B0763}
 	EndGlobalSection
 EndGlobal
